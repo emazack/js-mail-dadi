@@ -18,12 +18,5 @@ var i;
 for (i = 0; i < whitelist.length; i++) {
   if (mailcheck == whitelist[i]) {
     document.getElementById("mail").innerHTML = "Bentornato";
-  } else if {
-
   }
-
 }
-
-// 4 alla fine del check fare uscire un messaggio di accesso oppure di rifiuto
-
-// document.getElementById("mail").innerHTML = "La tua email non è corretta";
