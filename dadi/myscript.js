@@ -2,8 +2,11 @@
 
 // creiamo il dado
 var dado;
-dado = [1,2,3,4,5,6]
+dado = [1,2,3,4,5,6];
 
+// funziona che ricrea il lancio di un Dado
+var max = 5
+var lancio =  Math.round(Math.random() * max)
 // Un utente tira il primo dado ed avrà un risultato
 
 
